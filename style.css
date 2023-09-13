@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(nature.jpg);
+    background-size: cover;
+}
+
+.header{
+     top: 50%;
+     left: 50%;
+     position:absolute ;
+     transform: translate(-50%,-50%);
+}
+.card{
+    padding: 60px 40px 50px 40px ;
+    background: rgb(50,50,50);
+    border-radius: 10px;
+}
+#name{
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding: 6px;
+    margin-bottom: 20px;
+    color: white;
+}
+#button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: dodgerblue;
+    color: white;
+    margin-top:20px ;
+    border: none;
+    outline: none;
+    margin-left:50px ;
+}
+#button:hover{
+    background-color: yellowgreen;
+    color: black;
+    cursor: pointer;
+}
+
+a{
+    font-size: 15px;
+    
+}
+img{
+    border-radius: 50%;
+    position: absolute;
+    margin-left:100px ;
+    margin-top:-40px;
+}
+label{
+    padding-top: 20px;
+    color: white;
+}
